@@ -18,11 +18,14 @@
     <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Tim DeHof | Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta
+      name="keywords"
+      content="timDeHof, Timothy, javascript, Html, CSS, React, Express, NodeJS"
+    />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Tim DeHof | Developer" />
 
     <link
       rel="stylesheet"
@@ -33,9 +36,6 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-
-    <!-- Todo: remove the below script once you finish your portfolio -->
-    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
 
   <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
@@ -46,13 +46,13 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Tim DeHof</span>
           <br />
-          I'm the Unknown Developer.
+          I'm the Developer you need.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
-            >Know more</a
+            >Hire Me</a
           >
         </p>
       </div>
@@ -71,7 +71,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="./assets/me-final.png"
                 alt="Profile Image"
               />
             </div>
@@ -79,18 +79,43 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you can!
+                Hello there! I&apos;m Tim. I&apos;m a driven introvert that
+                delights in creating things from scratch, whether with code or
+                real materials.
               </p>
               <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
+                My first encounter with programming was in college, when I had
+                to build scripts for problem solving as part of my education. I
+                found I liked programming during my final year, but I was about
+                to graduate and didn&apos;t have the money to continue my
+                education. So I finished my degree and continued to program as a
+                pastime while working as a professional mechanical design
+                engineer for a product engineering business.
+              </p>
+              <p className="about-wrapper__info-text">
+                During the Covid epidemic, I found myself wishing I could be
+                doing something I was interested in. So, after 8 years of
+                working as a professional mechanical design engineer in the
+                product engineering industry, I realized I wanted to do
+                something more with my interest in technology and working with
+                computers. So, in early 2022, I made a career change and
+                completed Fullstack Academy&apos;s 12-week intensive Web
+                Development Bootcamp program, which was sponsored online by my
+                institution.
+              </p>
+              <p class="about-wrapper__info-text">
+                In my spare time, I enjoy watching tv shows, movies, and video
+                games with a science fiction-based world-building aspect. My
+                interests in these media types have carried over to my career in
+                software development, as I have a particular interest in
+                front-end and back-end engineering.
               </p>
               <span class="d-flex mt-3">
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="./assets/tim-dehof.pdf"
                 >
                   View Resume
                 </a>
@@ -112,21 +137,51 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Galactic Pawn</h3>
                 <div>
-                  <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                  <p className="mb-4">
+                    Galactic Pawn is a project I built alongside
+                    <a
+                      className="text-color-main font-bold"
+                      href="https://github.com/Aheiy1"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Aaron Heiy
+                    </a>
+                    ,
+                    <a
+                      className="text-color-main font-bold"
+                      href="https://github.com/kirkes21"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Taylor Kirkes
+                    </a>
+                    , and
+                    <a
+                      className="text-color-main font-bold"
+                      href="https://github.com/jawarr"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Jacob Warren
+                    </a>
+                    for a capstone project. We were instructed to create an
+                    e-commerce shop web application from scratch. We decided to
+                    create an e-commerce application for a fictional pawn shop
+                    at the end of the galaxy. This allow us to be creative with
+                    the items in the database system. This e-commerce
+                    application required a lot of heavy lifting to create a
+                    universal cart and overall shopping experience as well as
+                    introduce the products and include an admin page.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://pawnshop-galaxy.herokuapp.com/"
                 >
                   See Live
                 </a>
@@ -134,7 +189,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/PawnShop-at-the-end-of-the-galaxy/PawnShop-Galaxy"
                 >
                   Source Code
                 </a>
@@ -153,7 +208,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="./assets/Galactic Pawn.png"
                     />
                   </div>
                 </a>
@@ -166,21 +221,24 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Movie Watchlist</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    Movie Watchlist is the perfect search engine for movie
+                    buffs. With our easy-to-use interface, users can create a
+                    personalized watch list of their favorite movies in just a
+                    few clicks. Plus, we offer up-to-date information on new and
+                    upcoming releases, so users can always stay ahead of the
+                    curve. Whether you're looking for classic films or the
+                    latest blockbusters, Movie Watchlist is the perfect
+                    destination for movie lovers everywhere
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://movies-watchlist-solo.netlify.app/"
                 >
                   See Live
                 </a>
@@ -188,7 +246,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/timDeHof/movie-watchlist"
                 >
                   Source Code
                 </a>
@@ -207,7 +265,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="./assets/movieWatchlist.png"
                     />
                   </div>
                 </a>
@@ -220,21 +278,19 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Monster Rolodex</h3>
                 <div>
                   <p class="mb-4">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Excepturi neque, ipsa animi maiores repellendus distinctio
-                    aperiam earum dolor voluptatum consequatur blanditiis
-                    inventore debitis fuga numquam voluptate ex architecto
-                    itaque molestiae.
+                    This rolodex is full of monster friends for you to contact
+                    to scare your siblings. With this collection of fiends,
+                    you'll be able to get the best jump scares in town!
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href=""
                 >
                   See Live
                 </a>
@@ -242,7 +298,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/timDeHof/monsters-rolodex"
                 >
                   Source Code
                 </a>
@@ -261,7 +317,62 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="./assets/monsterRolodex_1.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
+
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Password Generator</h3>
+                <div>
+                  <p class="mb-4">
+                    Password Generator is the simplest and the most secure way
+                    to create a set of passwords for your signups. Using this
+                    app, you don't have to worry about using an insecure
+                    password ever again. Password Generator creates a set of
+                    random passwords for you that are unique and strong –
+                    perfect for all your signups!
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://timdehof.github.io/passwordGenerator/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn text-color-main"
+                  href="https://github.com/timDeHof/passwordGenerator"
+                >
+                  Source Code
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="#!" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="./assets/passwordGenerator.png"
                     />
                   </div>
                 </a>
@@ -279,13 +390,16 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">
+            I am available for freelance or full-time positions. Contact me and
+            let&apos;s talk.
+          </p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
-            >Call to Action</a
+            href="mailto:ttdehof@gmail.com"
+            >Connect With Me</a
           >
         </div>
       </div>
@@ -299,13 +413,25 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://twitter.com/timdehof"
+            target="_blank"
+          >
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/timothy-dehof/"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://github.com/timDeHof"
+            target="_blank"
+          >
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
@@ -317,30 +443,6 @@
           © 2021 - Template developed by
           <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
             >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobidev/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobidev/simplefolio on GitHub"
-            >Star</a
           >
         </p>
       </div>
