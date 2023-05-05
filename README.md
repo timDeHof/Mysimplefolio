@@ -49,7 +49,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2023 [Tim DeHof](https://github.com/timDeHof).<br />
-This project is [ISC](https://github.com/cobidev/simplefolio/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/cobidev/simplefolio/blob/master/LICENSE) licensed.
 
 ---
 
